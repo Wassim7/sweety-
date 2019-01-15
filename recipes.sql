@@ -43,3 +43,21 @@ FOREIGN KEY (id_ingredient) REFERENCES ingredients (id_ingredient) ON DELETE CAS
         
 INSERT INTO `recipe`.`categories` (`name`) VALUES ('Buns');
 INSERT INTO `recipe`.`categories` (`name`) VALUES ('Cookie');
+INSERT INTO `recipe`.`pastry` (`name`, `description`, `time`, `id_category`) VALUES ('Chocolate cookie', 'cookie, pastry, chocolate', '45', '2');
+INSERT INTO `recipe`.`ingredients` (`name`) VALUES ('Salted butter, softoned');
+INSERT INTO `recipe`.`ingredients` (`name`) VALUES ('Light brown muscovado sugar');
+INSERT INTO `recipe`.`ingredients` (`name`) VALUES ('Vanilla extract');
+INSERT INTO `recipe`.`ingredients` (`name`) VALUES ('Egg');
+INSERT INTO `recipe`.`ingredients` (`name`) VALUES ('Plain flour');
+INSERT INTO `recipe`.`ingredients` (`name`) VALUES ('Bicarbonate of soda');
+INSERT INTO `recipe`.`ingredients` (`name`) VALUES ('Salt ');
+INSERT INTO `recipe`.`ingredients` (`name`) VALUES ('Plain chocolate chips or chunks');
+INSERT INTO `recipe`.`pastryingredients` (`id_pastry`, `id_ingredient`, `weight`) VALUES ('1', '1', '150g');
+INSERT INTO `recipe`.`pastryingredients` (`id_pastry`, `id_ingredient`, `weight`) VALUES ('1', '2', '80g');
+INSERT INTO `recipe`.`pastryingredients` (`id_pastry`, `id_ingredient`, `weight`) VALUES ('1', '3', '2 tsp');
+INSERT INTO `recipe`.`pastryingredients` (`id_pastry`, `id_ingredient`, `weight`) VALUES ('1', '4', '1 large');
+INSERT INTO `recipe`.`pastryingredients` (`id_pastry`, `id_ingredient`, `weight`) VALUES ('1', '5', '225g');
+INSERT INTO `recipe`.`pastryingredients` (`id_pastry`, `id_ingredient`, `weight`) VALUES ('1', '6', '1/2 tsp');
+INSERT INTO `recipe`.`pastryingredients` (`id_pastry`, `id_ingredient`, `weight`) VALUES ('1', '7', '1/4 tsp');
+INSERT INTO `recipe`.`pastryingredients` (`id_pastry`, `id_ingredient`, `weight`) VALUES ('1', '8', '200g');
+
