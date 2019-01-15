@@ -12,7 +12,6 @@ CREATE TABLE `recipe`.`pastry` (
   `id_pastry` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `description` VARCHAR(45) NULL,
-  `id_ingredient` INT NOT NULL,
   `image_url` MEDIUMTEXT NULL,
   `page_url` MEDIUMTEXT NULL,
   `time` VARCHAR(45) NULL,
